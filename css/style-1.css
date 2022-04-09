@@ -1,0 +1,150 @@
+* {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header {
+}
+.header__nav {
+	width: 100%;
+	position: fixed;
+	background: rgb(135, 182, 221);
+	min-height: 60px;
+	padding: 18px 45px;
+	z-index: 1;
+}
+.nav {
+}
+.nav__list {
+	margin: 0 auto;
+	width: 1000px;
+}
+.nav__item {
+	display: inline-block;
+	margin-right: 70px;
+	border-right: 2px solid rgb(245, 237, 222);
+	padding-right: 69px;
+}
+.nav__item:last-child {
+	margin-right: 0;
+	border-right: none;
+	padding-right: 0;
+}
+.nav__link {
+	color: rgb(245, 237, 222);
+	font-size: 21px;
+}
+
+.main {
+	padding: 300px 0 300px 0;
+	background: rgb(239, 243, 219);
+}
+.main__container {
+	margin: 0 auto;
+	width: 1000px;
+}
+.main__title {
+	font-size: 54px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.main__subtitle {
+	font-size: 34px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.main__box-block {
+	background: rgb(175, 200, 221);
+	width: 500px;
+	height: 500px;
+	margin: 0 auto 80px;
+	padding: 20px;
+	position: relative;
+}
+
+.main__box-block:last-child {
+	margin-bottom: 0;
+}
+
+.box-block {
+	box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.11);
+}
+.box-block__item {
+	padding: 27px 0;
+	height: 80px;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-align: center;
+	border: 1px solid rgb(250, 245, 196);
+	margin-bottom: 15px;
+}
+
+.box-block__item:last-child {
+	margin-bottom: 0;
+}
+
+.box-block__item_green {
+	background: rgb(162, 255, 119);
+}
+.box-block__item_blue {
+	background: rgb(73, 115, 255);
+}
+.box-block__item_red {
+	background: rgb(255, 99, 99);
+}
+.box-block__item_purple {
+	background: rgb(217, 121, 255);
+}
+.box-block__item_pink {
+	background: rgb(247, 127, 183);
+}
+.box-block__relative-item {
+	height: 80px;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-align: center;
+	border: 1px solid rgb(250, 245, 196);
+	margin-bottom: 15px;
+	padding: 27px 0;
+	position: relative;
+	top: 30px;
+	left: 140px;
+}
+.box-block__relative-item_red {
+	background: rgb(255, 99, 99);
+}
+.box-block__absolute-item {
+	height: 80px;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-align: center;
+	border: 1px solid rgb(250, 245, 196);
+	margin-bottom: 15px;
+	padding: 27px 0;
+	position: absolute;
+	width: 92%;
+	top: -45px;
+	right: 250px;
+}
+.box-block__absolute-item_red {
+	background: rgb(255, 99, 99);
+}
+
+.box-block__sticky-item {
+	height: 80px;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-align: center;
+	border: 1px solid rgb(250, 245, 196);
+	margin-bottom: 15px;
+	padding: 27px 0;
+	position: sticky;
+	top: 200px;
+	left: 0;
+}
+
+.box-block__sticky-item_green {
+	background: rgb(162, 255, 119);
+	
+}

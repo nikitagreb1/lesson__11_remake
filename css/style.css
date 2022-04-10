@@ -42,6 +42,11 @@ body {
 	display: inline-block;
 }
 
+.logo__image {
+	width: 174px;
+	height: 41px;
+}
+
 .top-head__time {
 	display: inline-block;
 	margin-right: 67px;
@@ -184,7 +189,8 @@ body {
 	
 }
 .search__image {
-	
+	width: 18px;
+	height: 18px;
 }
 .navigation__cart {
 	display: inline-block;
@@ -202,6 +208,8 @@ body {
 
 .cart__image {
 	position: relative;
+	width: 24px;
+	height: 24px;
 }
 
 .cart__number {
@@ -391,7 +399,8 @@ body {
 }
 
 .row-block__image {
-	
+	width: 63px;
+	height: 63px;
 }
 
 .row-block__item:last-child {
@@ -560,7 +569,8 @@ body {
 }
 
 .block-wrapper__image {
-	
+	width: 63px;
+	height: 63px;
 }
 
 .block-wrapper__title {

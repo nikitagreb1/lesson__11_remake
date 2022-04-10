@@ -188,6 +188,11 @@ body {
 .search {
 	
 }
+
+.search__picture {
+	display: inline-block;
+}
+
 .search__image {
 	width: 18px;
 	height: 18px;
@@ -203,7 +208,7 @@ body {
 }
 
 .cart__picture {
-	
+	display: inline-block;
 }
 
 .cart__image {
@@ -340,7 +345,7 @@ body {
 }
 
 .who-we-are__paint {
-	
+	display: inline-block;
 }
 
 .who-we-are__image {
@@ -396,6 +401,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: -86px;
+	display: inline-block;
 }
 
 .row-block__image {
@@ -484,6 +490,11 @@ body {
 }
 .picture-dog {
 }
+
+.picture-dog__paint {
+	display: inline-block;
+}
+
 .picture-dog__image {
 	width: 744px;
 	height: 456px;
@@ -494,8 +505,14 @@ body {
 	right: 43px;
 	z-index: 1;
 }
+
+.ball-picture__paint {
+	display: inline-block;
+}
+
 .ball-picture {
 }
+
 .ball-picture__image {
 }
 
@@ -566,6 +583,7 @@ body {
 	position: absolute;
 	top: 50px;
 	left: 131px;
+	display: inline-block;
 }
 
 .block-wrapper__image {

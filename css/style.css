@@ -476,6 +476,8 @@ body {
 .picture-dog {
 }
 .picture-dog__image {
+	width: 744px;
+	height: 456px;
 }
 .nemo-enim__ball-picture {
 	position: absolute;

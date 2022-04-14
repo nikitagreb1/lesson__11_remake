@@ -27,7 +27,7 @@ body {
 .top-head__logo {
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 270px;
+	margin-right: 240px;
 }
 
 .logo {
@@ -49,8 +49,9 @@ body {
 
 .top-head__time {
 	display: inline-block;
-	margin-right: 67px;
+	margin-right: 33px;
 	position: relative;
+	padding-left: 34px;
 }
 .top-head__time::before {
 	content: '';
@@ -58,7 +59,7 @@ body {
 	background: url('../img/time-icons.png') 0 0 no-repeat;
 	width: 24px;
 	height: 24px;
-	left: -36px;
+	left: 0px;
 	top: -1px;
 }
 .time {
@@ -78,8 +79,9 @@ body {
 }
 .top-head__phone {
 	display: inline-block;
-	margin-right: 32px;
+	margin-right: 28px;
 	position: relative;
+	padding-left: 34px;
 }
 
 .top-head__phone::before {
@@ -88,7 +90,7 @@ body {
 	background: url('../img/phone-icons.png') 0 0 no-repeat;
 	width: 24px;
 	height: 24px;
-	left: -36px;
+	left: 0px;
 	top: -3px;
 }
 
@@ -385,22 +387,21 @@ body {
 }
 
 .our-promise__row-block {
-	padding: 0 0 0 86px;
 }
 .row-block {
 }
 .row-block__item {
-	max-width: 235px;
+	max-width: 324px;
 	display: inline-block;
-	margin-right: 110px;
+	margin-right: 20px;
 	position: relative;
-	
+	padding-left: 86px;
 }
 
 .row-block__picture {
 	position: absolute;
 	top: 0;
-	left: -86px;
+	left: 0px;
 	display: inline-block;
 }
 

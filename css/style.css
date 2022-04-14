@@ -155,11 +155,7 @@ body {
 	position: relative;
 	margin-right: 37px;
 }
-.navigation__item:nth-child(1),
-.navigation__item:nth-child(5) {
-	display: inline-block;
-	margin-right: 54px;
-}
+
 .navigation__item:last-child {
 	margin-right: 0;
 }
@@ -170,14 +166,19 @@ body {
 	letter-spacing: 0.15px;
 	color: #000000;
 }
-.navigation__item:nth-child(1) .navigation__link::after, .navigation__item:nth-child(5) .navigation__link::after  {
+
+.navigation__link_padding {
+	padding-right: 21px;
+}
+
+.navigation__link_padding::after  {
 	content: "";
 	background: url("../img/more-icons.png") 0 0 no-repeat;
 	width: 16px;
 	height: 16px;
 	position: absolute;
 	top: 0;
-	right: -21px;
+	right: 0px;
 }
 
 .navigation__search {

@@ -15,7 +15,7 @@ body {
 
 .header__container, .who-we-are__container, .our-promise__container, .nemo-enim__container, .our-services__container {
 	margin: 0 auto;
-	width: 1020px;
+	max-width: 1020px;
 }
 
 .header__top-head {
